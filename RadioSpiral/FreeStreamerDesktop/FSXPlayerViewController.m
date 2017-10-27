@@ -61,17 +61,10 @@
          */
         [self.audioController pause];
         _paused = NO;
-    } else {
-        /*
-         * Not paused, just directly call play.
-         */
-        [self.audioController play];
     }
-    
+    [self.audioController play];
     [self.playButton setHidden:YES];
     [self.pauseButton setHidden:NO];
-    
-    [self.urlTextField setEditable:NO];
 }
 
 - (IBAction)pause:(id)sender
@@ -82,34 +75,12 @@
     
     [self.playButton setHidden:NO];
     [self.pauseButton setHidden:YES];
-    
-    [self.urlTextField setEditable:YES];
 }
 
+// Required to meet the interface; dummied out.
 - (IBAction)record:(id)sender
 {
-    _record = (!_record);
-    
-    if (!_record) {
-        self.audioController.activeStream.outputFile = nil;
-        return;
-    }
-    
-    NSMutableString *basePath = [[NSMutableString alloc] init];
-    
-    [basePath appendString:NSHomeDirectory()];
-    [basePath appendString:@"/Desktop"];
-    [basePath appendString:@"/FreeStreamer-capture"];
-    
-    NSString *fileName;
-    unsigned index = 0;
-    
-    do {
-        fileName = [[NSString alloc] initWithFormat:@"%@-%i.%@", basePath, index, self.audioController.activeStream.suggestedFileExtension];
-        index++;
-    } while ([[NSFileManager defaultManager] fileExistsAtPath:fileName]);
-    
-    self.audioController.activeStream.outputFile = [NSURL fileURLWithPath:fileName];
+    return;
 }
 
 /*
@@ -264,13 +235,13 @@
             [self.stateTextFieldCell setTitle:@"Cannot read the audio stream"];
             break;
         case kFsAudioStreamErrorNetwork:
-            [self.stateTextFieldCell setTitle:@"Network failed: cannot play the audio stream"];
+            [self.stateTextFieldCell setTitle:@"Network offline: cannot play the audio stream"];
             break;
         case kFsAudioStreamErrorUnsupportedFormat:
             [self.stateTextFieldCell setTitle:@"Unsupported format"];
             break;
         case kFsAudioStreamErrorStreamBouncing:
-            [self.stateTextFieldCell setTitle:@"Network failed: cannot get enough data to play"];
+            [self.stateTextFieldCell setTitle:@"Poor connectivity: cannot get enough data to play"];
             break;
         default:
             [self.stateTextFieldCell setTitle:@"Unknown error occurred"];
