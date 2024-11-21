@@ -46,13 +46,8 @@
 
 - (IBAction)playFromUrl:(id)sender
 {
-    NSString *url = [self.urlTextField stringValue];
-    
-    if (![self.audioController.url isEqual:url]) {
-        [self.audioController stop];
-        
-        self.audioController.url = [NSURL URLWithString:url];
-    }
+    NSString *url = @"https://spiral.radio:8000/stream.mp3";
+    self.audioController.url = [NSURL URLWithString:url];
     
     if (_paused) {
         /*

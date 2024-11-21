@@ -47,6 +47,10 @@
  * Reference to the pause button.
  */
 @property (nonatomic,strong) IBOutlet NSButton *pauseButton;
+/**
+ * Reference to the cover image.
+ */
+@property (weak) IBOutlet NSImageView *coverImage;
 
 /**
  * An action for starting the playback of the stream.
