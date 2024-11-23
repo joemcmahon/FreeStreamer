@@ -15,10 +15,10 @@
         <customObject id="-3" userLabel="Application"/>
         <menu title="AMainMenu" systemMenu="main" id="29">
             <items>
-                <menuItem title="FreeStreamer" id="56">
-                    <menu key="submenu" title="FreeStreamer" systemMenu="apple" id="57">
+                <menuItem title="RadioSpiral Desktop" id="56">
+                    <menu key="submenu" title="RadioSpiral Desktop" systemMenu="apple" id="57">
                         <items>
-                            <menuItem title="About FreeStreamer" id="58">
+                            <menuItem title="About RadioSpiral Desktop" id="58">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-2" id="142"/>
@@ -37,7 +37,7 @@
                             <menuItem isSeparatorItem="YES" id="144">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Hide FreeStreamer" keyEquivalent="h" id="134">
+                            <menuItem title="Hide RadioSpiral Desktop" keyEquivalent="h" id="134">
                                 <connections>
                                     <action selector="hide:" target="-1" id="367"/>
                                 </connections>
@@ -56,7 +56,7 @@
                             <menuItem isSeparatorItem="YES" id="149">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Quit FreeStreamer" keyEquivalent="q" id="136">
+                            <menuItem title="Quit RadioSpiral Desktop" keyEquivalent="q" id="136">
                                 <connections>
                                     <action selector="terminate:" target="-3" id="449"/>
                                 </connections>
@@ -638,7 +638,7 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Help" systemMenu="help" id="491">
                         <items>
-                            <menuItem title="FreeStreamer Help" keyEquivalent="?" id="492">
+                            <menuItem title="RadioSpiral  Desktop Help" keyEquivalent="?" id="492">
                                 <connections>
                                     <action selector="showHelp:" target="-1" id="493"/>
                                 </connections>
@@ -648,37 +648,26 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="FreeStreamer" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
+        <window title="RadioSpiral Desktop" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="608" height="265"/>
+            <rect key="contentRect" x="335" y="390" width="600" height="65"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
             <view key="contentView" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="608" height="265"/>
+                <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" id="UlQ-px-9JH">
-                        <rect key="frame" x="484" y="167" width="96" height="19"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="roundRect" title="Play" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ggZ-lW-enf">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="cellTitle"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="playFromUrl:" target="GOp-h0-FXd" id="Sx0-zU-xlw"/>
-                        </connections>
-                    </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="HTh-z8-cfK">
-                        <rect key="frame" x="98" y="66" width="461" height="45"/>
+                        <rect key="frame" x="88" y="13" width="383" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="QBs-gx-2v0">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" id="QBs-gx-2v0">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <button hidden="YES" verticalHuggingPriority="750" id="2eK-oe-Y2E">
-                        <rect key="frame" x="484" y="167" width="96" height="19"/>
+                        <rect key="frame" x="484" y="19" width="96" height="19"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="roundRect" title="Pause" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4RB-fN-TMk">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -689,7 +678,7 @@
                         </connections>
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="j0W-eE-4nW">
-                        <rect key="frame" x="100" y="133" width="362" height="17"/>
+                        <rect key="frame" x="100" y="-67" width="362" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="y4W-TK-A4C">
                             <font key="font" metaFont="system"/>
@@ -697,8 +686,28 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <button id="xeJ-BH-Zj5">
+                        <rect key="frame" x="20" y="5" width="48" height="48"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="RSLogo" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="2Xb-Nw-RhF">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" id="UlQ-px-9JH">
+                        <rect key="frame" x="484" y="19" width="96" height="19"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="roundRect" title="Play" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ggZ-lW-enf">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="cellTitle"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="playFromUrl:" target="GOp-h0-FXd" id="Sx0-zU-xlw"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="137" y="46.5"/>
         </window>
         <customObject id="494" customClass="FSXAppDelegate">
             <connections>
@@ -716,4 +725,7 @@
             </connections>
         </viewController>
     </objects>
+    <resources>
+        <image name="RSLogo" width="64" height="64"/>
+    </resources>
 </document>
