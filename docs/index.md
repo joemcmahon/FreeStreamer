@@ -1,17 +1,22 @@
 # RadioSpiral Desktop
-### A streaming audio player for the [https://spiral.radio](RadioSpiral) stream
+### A miniplayer for [RadioSpiral](https://radiospiral.net)
 
-RadioSpiral Desktop provides a tiny (low memory footprint and small screen real estate)
-player for RadioSpiral.
+Radiospiral provides both a player on our website 
+and an app via the App Store for both iOS and M-series Macs, but
+some of our listeners don't have modern Macs: some even still have 32-bit ones.
 
-We want to make sur eall of our listeners can easily access the stream, so we provide a
-number of ways to listen:
+And maybe you as a listener just want a tiny (both in screen real estate and in memory footprint) app to play music from our station.
 
- - A widget on our website at [https://spiral.radio](https://spiral.radio)
- - An iOS app, (also )runnable on M-series Macs with Ventura or greater)
- - This app, for our Mac-using friends running any modern Mac OS (32-bit _or_ 64-bit).
+_That's RadioSpiral Desktop._
 
-This app provides a minimal interface: play/pause and the title and artist. That's it!
+It provides the minimum you need to listen to our 24/7 stream of captivating electronica.
 
-Source code is at https://github.com/joemcmahon/RadioSpiral-Desktop
+ - a play/pause button
+ - the current artist and track.
 
+That's it! We do have the logo over there on the left and we plan to make that a
+thumbnail of the cover a bit later, but for now there's your minimum to listen.
+
+Enjoy!
+
+You can see the project itself at [https://github.com/joemcmahon/RadioSpiral-Desktop](https://github.com/joemcmahon/RadioSpiral-Desktop).
