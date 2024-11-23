@@ -55,13 +55,13 @@
 
 /* Begin PBXFileReference section */
 		600032761847CF94001C83BE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		601121B418DA3C1D00B5E913 /* FreeStreamerDesktopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeStreamerDesktopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		601121B418DA3C1D00B5E913 /* RadioSpiral DesktopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RadioSpiral DesktopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		601121B818DA3C1D00B5E913 /* FreeStreamerDesktopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FreeStreamerDesktopTests-Info.plist"; sourceTree = "<group>"; };
 		601121BA18DA3C1D00B5E913 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		601121BC18DA3C1D00B5E913 /* FreeStreamerDesktopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeStreamerDesktopTests.m; sourceTree = "<group>"; };
 		601121BE18DA3C1D00B5E913 /* FreeStreamerDesktopTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FreeStreamerDesktopTests-Prefix.pch"; sourceTree = "<group>"; };
 		601C7D0518DA34C400ABBBB2 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = FreeStreamerDesktop/MainMenu.xib; sourceTree = SOURCE_ROOT; };
-		6032285A182411B500B7027B /* FreeStreamerDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeStreamerDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6032285A182411B500B7027B /* RadioSpiral Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RadioSpiral Desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6032285D182411B500B7027B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		60322860182411B500B7027B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		60322861182411B500B7027B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -183,8 +183,8 @@
 		6032285B182411B500B7027B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6032285A182411B500B7027B /* FreeStreamerDesktop.app */,
-				601121B418DA3C1D00B5E913 /* FreeStreamerDesktopTests.xctest */,
+				6032285A182411B500B7027B /* RadioSpiral Desktop.app */,
+				601121B418DA3C1D00B5E913 /* RadioSpiral DesktopTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -293,9 +293,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		601121B318DA3C1C00B5E913 /* FreeStreamerDesktopTests */ = {
+		601121B318DA3C1C00B5E913 /* RadioSpiral DesktopTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 601121C318DA3C1D00B5E913 /* Build configuration list for PBXNativeTarget "FreeStreamerDesktopTests" */;
+			buildConfigurationList = 601121C318DA3C1D00B5E913 /* Build configuration list for PBXNativeTarget "RadioSpiral DesktopTests" */;
 			buildPhases = (
 				601121B018DA3C1C00B5E913 /* Sources */,
 				601121B118DA3C1C00B5E913 /* Frameworks */,
@@ -306,14 +306,14 @@
 			dependencies = (
 				601121C018DA3C1D00B5E913 /* PBXTargetDependency */,
 			);
-			name = FreeStreamerDesktopTests;
+			name = "RadioSpiral DesktopTests";
 			productName = FreeStreamerDesktopTests;
-			productReference = 601121B418DA3C1D00B5E913 /* FreeStreamerDesktopTests.xctest */;
+			productReference = 601121B418DA3C1D00B5E913 /* RadioSpiral DesktopTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		60322859182411B500B7027B /* FreeStreamerDesktop */ = {
+		60322859182411B500B7027B /* RadioSpiral Desktop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6032288B182411B500B7027B /* Build configuration list for PBXNativeTarget "FreeStreamerDesktop" */;
+			buildConfigurationList = 6032288B182411B500B7027B /* Build configuration list for PBXNativeTarget "RadioSpiral Desktop" */;
 			buildPhases = (
 				60322856182411B500B7027B /* Sources */,
 				60322857182411B500B7027B /* Frameworks */,
@@ -323,9 +323,9 @@
 			);
 			dependencies = (
 			);
-			name = FreeStreamerDesktop;
+			name = "RadioSpiral Desktop";
 			productName = FreeStreamer;
-			productReference = 6032285A182411B500B7027B /* FreeStreamerDesktop.app */;
+			productReference = 6032285A182411B500B7027B /* RadioSpiral Desktop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -343,11 +343,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 60322855182411B500B7027B /* Build configuration list for PBXProject "FreeStreamerDesktop" */;
+			buildConfigurationList = 60322855182411B500B7027B /* Build configuration list for PBXProject "RadioSpiral Desktop" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -356,8 +357,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60322859182411B500B7027B /* FreeStreamerDesktop */,
-				601121B318DA3C1C00B5E913 /* FreeStreamerDesktopTests */,
+				60322859182411B500B7027B /* RadioSpiral Desktop */,
+				601121B318DA3C1C00B5E913 /* RadioSpiral DesktopTests */,
 			);
 		};
 /* End PBXProject section */
@@ -426,7 +427,7 @@
 /* Begin PBXTargetDependency section */
 		601121C018DA3C1D00B5E913 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 60322859182411B500B7027B /* FreeStreamerDesktop */;
+			target = 60322859182411B500B7027B /* RadioSpiral Desktop */;
 			targetProxy = 601121BF18DA3C1D00B5E913 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -583,6 +584,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/FreeStreamerDesktop/FreeStreamer-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pemungkah.RadioSpiralDesktop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -602,6 +604,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/FreeStreamerDesktop/FreeStreamer-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pemungkah.RadioSpiralDesktop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -610,7 +613,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		601121C318DA3C1D00B5E913 /* Build configuration list for PBXNativeTarget "FreeStreamerDesktopTests" */ = {
+		601121C318DA3C1D00B5E913 /* Build configuration list for PBXNativeTarget "RadioSpiral DesktopTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				601121C118DA3C1D00B5E913 /* Debug */,
@@ -619,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60322855182411B500B7027B /* Build configuration list for PBXProject "FreeStreamerDesktop" */ = {
+		60322855182411B500B7027B /* Build configuration list for PBXProject "RadioSpiral Desktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60322889182411B500B7027B /* Debug */,
@@ -628,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6032288B182411B500B7027B /* Build configuration list for PBXNativeTarget "FreeStreamerDesktop" */ = {
+		6032288B182411B500B7027B /* Build configuration list for PBXNativeTarget "RadioSpiral Desktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6032288C182411B500B7027B /* Debug */,
