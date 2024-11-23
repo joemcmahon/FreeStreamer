@@ -28,10 +28,6 @@
  */
 @property (nonatomic,readonly) FSAudioController *audioController;
 /**
- * Reference to the URL text field.
- */
-@property (nonatomic,strong) IBOutlet NSTextField *urlTextField;
-/**
  * Reference to the state text field.
  */
 @property (nonatomic,strong) IBOutlet NSTextFieldCell *stateTextFieldCell;
