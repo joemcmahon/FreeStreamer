@@ -18,3 +18,5 @@ That's it! We do have the logo over there on the left and we plan to make that a
 thumbnail of the cover a bit later, but for now there's your minimum to listen.
 
 Enjoy!
+
+You can see the project itself at [https://github.com/joemcmahon/RadioSpiral-Desktop](https://github.com/joemcmahon/RadioSpiral-Desktop).
